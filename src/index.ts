@@ -55,6 +55,7 @@ class QuickCSV {
       });
     });
   }
+
   formatToCsvString({ data }: IFormatToCSV): Promise<any> {
     return new Promise((resolve, reject) => {
       try {
@@ -102,6 +103,6 @@ class QuickCSV {
   }
 }
 
-const parser = new QuickCSV();
+const parser: QuickCSV = new QuickCSV();
 
 export default parser;

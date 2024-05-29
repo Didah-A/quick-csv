@@ -1,6 +1,6 @@
 {
   "name": "quick-csv-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "A csv parser npm package for parsing and generating csv files",
   "main": "dist/index.js",
